@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Linkedin from '../../assets/linkedin.webp'
 import Youtube from '../../assets/youtube.webp'
 import Instagram from '../../assets/insta.webp'
