@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+.card-um {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 100%;
+    background-color: #E8f1f2;
+    
+}
+
+.article,
+.img-box {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.img-box {
+	flex: 3 1 30ch;
+	height: calc(100px + 5vw);
+	overflow: hidden;
+}
+
+
+.article {
+	box-shadow: 0 0 10px 0px gray;
+	border-radius: 8px;
+	overflow: hidden;
+    width: clamp(100px, 23%, 23%);
+    margin: 20px;
+    
+}
+.titulo-card{
+    margin: 0;
+	font-size: clamp(1.2em, 0.6vw, 0.6em);
+	font-family: "Cinzel", sans-serif;
+    text-align: center;
+	margin-bottom: 1rem;
+    color:#3f3d56;
+}
+a {
+    text-decoration: none;
+    color: #E8f1f2;
+}
+
+.title-a{
+    text-decoration: none;
+    color: #3f3d56;
+}
+
+.title-c{
+    text-decoration: none;
+    color: #3f3d56;
+    
+}
+.texto{
+    color: #3f3d56;
+    padding: 1rem;
+    font-size: 15px;
+    text-align: center;
+}
+.botao{
+	padding: 6px 14px 6px 12px;
+	border: none;
+	background: none;
+	cursor: pointer;
+}

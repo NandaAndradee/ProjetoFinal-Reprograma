@@ -1,0 +1,21 @@
+.footer{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #00A0BF;
+}
+.redes{
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    justify-content: space-around;
+}
+
+@media (max-width:768px){
+    .footer {
+        margin: 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+}

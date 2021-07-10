@@ -1,0 +1,33 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00A0BF;
+    padding-right: 3rem;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 13px;
+}
+
+.img{
+    width: 100px;
+    margin: 0;
+    max-width: 350px;
+    max-height: 1px;
+}
+
+
+
+@media (max-width:768px){
+    .menu {
+        margin: 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
